@@ -62,7 +62,7 @@
     <label for="currentRank">What is your current belt rank?</label>
   </div>
   <div class="rightTab">
-    <select id="dropdown" name="currentRank" class="dropdown">
+    <select id="currentRank" name="currentRank" class="dropdown">
       <option disabled selected value>Select an option</option>
       <option value="white belt">White belt</option>
       <option value="blue belt">Blue belt</option>
@@ -84,7 +84,8 @@
       <li class="radio">
         <label
           >Definitely<input
-            name="Continue-to-BB"
+            id="userRating"
+          name="Continue-to-BB"
             value="Definitely"
             type="radio"
             class="userRatings"
@@ -93,7 +94,8 @@
       <li class="radio">
         <label
           >Maybe<input
-            name="Continue-to-BB"
+          id="userRating"  
+          name="Continue-to-BB"
             value="Maybe"
             type="radio"
             class="userRatings"
@@ -102,6 +104,7 @@
       <li class="radio">
         <label
           >Not sure<input
+          id="userRating"
             name="Continue-to-BB"
             value="Not sure"
             type="radio"
